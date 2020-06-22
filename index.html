@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Thiago Viado</title>
-	</head>
-	<body>
-
-		<h1>My First Text Editor</h1>
-		<p>My first paragraph.</p>
-
-	</body>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>Thiago Viado</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="frame">
+		<table width="100%">
+			<tr>
+				<td width="100%">
+					<div class="drag">
+						<b id="title">Editor de Texto do Tchelin</b>
+					</div>
+				</td>
+				<td><a onclick="minimize()" class="btnFrame">_</a></td>
+				<td><a onclick="maximize()" class="btnFrame">□</a></td>
+				<td><a onclick="closeBtn()" class="btnFrame">x</a></td>
+				<td><br></td>
+			</tr>
+		</table>
+	</div><br><br>
+	<h1>Thiago Viado!</h1>
+	<div id="editor" contenteditable="true" autofocus style="padding: 16px 16px">
+		Test
+	</div>
+</body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "text_editor",
   "version": "1.0.0",
   "description": "Testing npm",
   "main": "main.js",
@@ -10,5 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^9.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelocd/text_editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelocd/text_editor/issues"
+  },
+  "homepage": "https://github.com/marcelocd/text_editor#readme"
 }
